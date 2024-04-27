@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 225e8453a7dbb1945802ede78e46c8b7
+  m_SerializeEntries:
+  - m_GUID: 3b59efd5fa5c55345883dced895361de
+    m_Address: Assets/Scenes/BarbecueParty.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc0d4010bbf28b4594072e72b8655ab
+    m_Address: Assets/Scenes/MainScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9826c72d3729e9f438ff7ee1c0c50f11
+    m_Address: Assets/Prefabs/test.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8c5a48a33669c349939ca5d6a3773d2
+    m_Address: Assets/Prefabs/Rewards/reward.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3830594dfa7db02489e57b5ec298107e
+    m_Address: Assets/Prefabs/Rewards/reward-beer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8499afe89782bef48bd1bbaa6d8c61bd
+    m_Address: Assets/Prefabs/Rewards/reward-candy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c379a2acccacf1c489ac31045d612f58
+    m_Address: Assets/Prefabs/Rewards/reward-coconut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a23d26c51fe2f945b1d4a86139d6264
+    m_Address: Assets/Prefabs/Rewards/reward-croissant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8811effce3e222743a62b5de78753445
+    m_Address: Assets/Prefabs/Rewards/reward-donut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4904cb2357093374299cfca361269f89
+    m_Address: Assets/Prefabs/Rewards/reward-egg.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 279f78490b736a84dbb2905742ff46de
+    m_Address: Assets/Prefabs/Rewards/reward-fig.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36b35d1ad9130fb4eab56f39de5b5138
+    m_Address: Assets/Prefabs/Rewards/reward-godfood.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2f3c81622570f148ab786b267215486
+    m_Address: Assets/Prefabs/Rewards/reward-hotchocolate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2079c4335316537409b5c03ac0bdcdde
+    m_Address: Assets/Prefabs/Rewards/reward-hotdog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aeb572b1a88aa24e9ad61918034d6c7
+    m_Address: Assets/Prefabs/Rewards/reward-mushroom.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9431a49fc8433cc42a7ec25147b878f4
+    m_Address: Assets/Prefabs/Rewards/reward-noodle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce8effc2b9a5dd54694a87de1801a301
+    m_Address: Assets/Prefabs/Rewards/reward-pineapple.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9246051f465999047aec5593bb3fa478
+    m_Address: Assets/Prefabs/Rewards/reward-shrimp.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 991d00b9c1263bd4ebe7d0cdf015a1f8
+    m_Address: Assets/Prefabs/RewardCollectables/candy-reward-collectable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e73028f856da3e40ba561e442907bd7
+    m_Address: Assets/Prefabs/RewardCollectables/beer-reward-collectable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f4dd0bb59aa2104582b01e92112818d
+    m_Address: Assets/Prefabs/RewardCollectables/coconut-reward-collectable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4f07aef5f48fb6448054e0b9dbc1c07
+    m_Address: Assets/Prefabs/RewardCollectables/croissant-reward-collectable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65d22fa6250bc5e458cfd72657066eaa
+    m_Address: Assets/Prefabs/RewardCollectables/donut-reward-collectable.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3416732dbfe0e343a952264d5a26c4b
+    m_Address: Assets/Prefabs/RewardCollectables/egg-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88053fab0433f484b9ceb2a4d7c0ad24
+    m_Address: Assets/Prefabs/RewardCollectables/fig-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 936682d075b181d4b82627f8986dde32
+    m_Address: Assets/Prefabs/RewardCollectables/godfood-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5eb7ce7e107cd1429b0ed82a480c2d3
+    m_Address: Assets/Prefabs/RewardCollectables/hotchocolate-reward-collectable
+      Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3368d6073f2d50b4db14020a8fd61523
+    m_Address: Assets/Prefabs/RewardCollectables/hotdog-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c00cec2705ca964db0955a3590cf8c4
+    m_Address: Assets/Prefabs/RewardCollectables/mushroom-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b0d5ea64f21ba440b7dbf5a26e37ba7
+    m_Address: Assets/Prefabs/RewardCollectables/noodle-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2c3d2b2879470345a8a1203c59e7362
+    m_Address: Assets/Prefabs/RewardCollectables/pineapple-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6ecb38c84fdf484d9021662df07c92a
+    m_Address: Assets/Prefabs/RewardCollectables/shrimp-reward-collectable Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f7befcd08e001a4cacd379a3f8917cb
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-beer.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fee8c161684953d4dae59be1ba036f1e
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-candy.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96d6bac0e6b79f24886ff42e08120e7e
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-coconut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10ba81a7abc10dd43b42409c1f359633
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-croissant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6c23bdceac07b1428dc157c08110619
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-donut.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6de3fe2bbe9cdf5499efcb5be022f900
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-egg.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18f7904f87a506b4993e49c20a0e5c0a
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-fig.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dbf904ba8b515e4793af4824795cbde
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-godfood.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 321b22d2ed239a045b4e7285830c98dd
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-hotchocolate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1337fa018d0968b43a495f7c798dd7f3
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-hotdog.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 203df344be0f86444b7b71bbeba37b88
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-mushroom.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17494442fd40b794a922034d2175df30
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-noodle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68278c1146497ae4594af39f3c83ded3
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-pineapple.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ff566fdcdf79b148aa7772627c68dbb
+    m_Address: Assets/Prefabs/UIWalletItems/wallet-item-shrimp Variant.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: adc0ba6cc6e6c5c4e8e19409bf3b5a1d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 04378dc5933e1984aa73f7b55ccf079a, type: 2}
+    - {fileID: 11400000, guid: 7f669a4d9cece684da9df5014bad400a, type: 2}
