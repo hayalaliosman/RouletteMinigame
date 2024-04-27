@@ -27,11 +27,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9826c72d3729e9f438ff7ee1c0c50f11
-    m_Address: Assets/Prefabs/test.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8c5a48a33669c349939ca5d6a3773d2
     m_Address: Assets/Prefabs/Rewards/reward.prefab
     m_ReadOnly: 0

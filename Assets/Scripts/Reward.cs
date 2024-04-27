@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.AddressableAssets;
-using Random = UnityEngine.Random;
 
 public class Reward : MonoBehaviour, IInitizableRouletteMinigame
 {

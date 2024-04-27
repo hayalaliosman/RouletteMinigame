@@ -1,9 +1,9 @@
+using TMPro;
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 using Random = UnityEngine.Random;
-using TMPro;
 
 public static class Utilities
 {

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class RewardCollectable : MonoBehaviour, ICollectable, IInitizableRouletteMinigame
 {
-    protected UnityEvent onCollectBegun = new();
+    protected readonly UnityEvent onCollectBegun = new();
     
     private RouletteManager _rouletteManager;
     
@@ -29,6 +29,7 @@ public class RewardCollectable : MonoBehaviour, ICollectable, IInitizableRoulett
                 {
                     transform.DOKill();
                     _rouletteManager.IncreaseCollectedRewardAmount();
+                    // Destroying gameObject which was created as addressable
                     Addressables.ReleaseInstance(gameObject);
                 });
             });

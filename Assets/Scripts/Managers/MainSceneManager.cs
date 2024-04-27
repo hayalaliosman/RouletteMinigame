@@ -23,21 +23,7 @@ public class MainSceneManager : MonoBehaviour
         handle.Completed += OnSceneLoaded;
     }
 
-    public void OnClick_OpenWallet()
-    {
-        walletPanel.Open(0.5f);
-        // walletPanel.localScale = Vector3.zero;
-        // walletPanel.gameObject.SetActive(true);
-        // walletPanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
-    }
+    public void OnClick_OpenWallet() => walletPanel.Open(0.5f);
 
-    public void OnClick_CloseWallet()
-    {
-        walletPanel.Close(0.4f);
-        // walletPanel.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack)
-        //     .OnComplete(() =>
-        //     {
-        //         walletPanel.gameObject.SetActive(false);
-        //     });
-    }
+    public void OnClick_CloseWallet() => walletPanel.Close(0.4f);
 }

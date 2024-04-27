@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.Events;
 using System.Collections.Generic;
 
+/// <summary>
+/// Base class for roulette mini game
+/// </summary>
 public abstract class RouletteManager : MonoBehaviour
 {
     public RectTransform mainCanvas;
@@ -27,6 +30,12 @@ public abstract class RouletteManager : MonoBehaviour
     private void Awake()
     {
         Application.targetFrameRate = 60;
+        
+#if UNITY_EDITOR
+        Debug.unityLogger.logEnabled = true;
+#else
+        Debug.unityLogger.logEnabled = false;
+#endif
     }
     
     protected void Start()
@@ -40,6 +49,10 @@ public abstract class RouletteManager : MonoBehaviour
         return _rewardSlotPositions[index];
     }
     
+    /// <summary>
+    /// Creates reward collectables which will move into the wallet with animation
+    /// </summary>
+    /// <param name="rewardIndex">Type of the reward as integer</param>
     public void CreateRewardCollectables(int rewardIndex)
     {
         for (var i = 0; i < spawnedCollectableCount; i++) collectableFactories[rewardIndex].CreateCollectableAsync();

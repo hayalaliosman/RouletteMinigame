@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb4fce5959055246ad87b71eff11ff6, type: 3}
   m_Name: Shrimp
   m_EditorClassIdentifier: 
-  uIWalletItemPrefabAddress: Assets/Prefabs/UIWalletItems/wallet-item-shrimp Variant.prefab
+  itemPrefabAddress: Assets/Prefabs/UIWalletItems/wallet-item-shrimp Variant.prefab
   itemType: 13

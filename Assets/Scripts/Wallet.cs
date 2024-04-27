@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -54,7 +53,6 @@ public class Wallet : MonoBehaviour
             Debug.Log("Json path exists");
             var json = System.IO.File.ReadAllText(path);
             _walletItemList = JsonUtility.FromJson<WalletItemList>(json);
-            Debug.Log("Wallet item count= " + _walletItemList.walletItems.Count);
         }
         else
         {
@@ -64,7 +62,7 @@ public class Wallet : MonoBehaviour
 
     private string FindUIWalletPrefabAddress(Reward.RewardType itemType)
     {
-        return uIWalletItemInformations[(int)itemType].uIWalletItemPrefabAddress;
+        return uIWalletItemInformations[(int)itemType].itemPrefabAddress;
     }
     
     private void CreateUIWalletItems()
@@ -83,7 +81,6 @@ public class Wallet : MonoBehaviour
         {
             var uIWalletItem = obj.Result.transform;
             uIWalletItem.GetComponent<UIWalletItem>().Initialize(walletSlots[walletItemIndex], rewardAmount);
-            // uIWalletItem.GetComponent<UIWalletItem>().Initialize(uIWalletsParent, walletItemIndex, rewardAmount);
             
             Debug.Log("Successfully instantiated addressable reward object.");
         }

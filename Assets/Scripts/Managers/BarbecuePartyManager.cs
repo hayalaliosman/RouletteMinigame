@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -28,8 +27,6 @@ public class BarbecuePartyManager : RouletteManager
         base.Start();
         CreateRewards();
     }
-
-    public override void IncreaseCollectedRewardAmount() => CollectedRewardAmount++;
 
     private void CreateRewards()
     {
@@ -134,4 +131,5 @@ public class BarbecuePartyManager : RouletteManager
         onRewardClaimed.Invoke(rewardIndex % rewardSlots.Length);
     }
     
+    public override void IncreaseCollectedRewardAmount() => CollectedRewardAmount++;
 }
